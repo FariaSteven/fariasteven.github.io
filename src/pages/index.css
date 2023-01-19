@@ -1,0 +1,51 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container .pageTitle {
+  font-weight: 100;
+}
+
+.container .wrapper {
+  display: flex;
+  gap: 100px;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu button {
+  color: white;
+  background-image: linear-gradient(to right, #1a1a1a, rgba(0, 0, 0, 0.781));
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  background-size: 300% 100%;
+}
+
+.menu button:hover {
+  background-image: linear-gradient(to left, #1a1a1a, rgba(0, 0, 0, 0.781));
+  transition: all 0.4s ease-in-out;
+  background-position: 50% 10%;
+  cursor: pointer;
+}
+
+.menu button:focus {
+  background-image: linear-gradient(to left, #1a1a1a, rgba(0, 0, 0, 0.781));
+  transition: all 0.4s ease-in-out;
+  background-position: 50% 10%;
+  cursor: pointer;
+}

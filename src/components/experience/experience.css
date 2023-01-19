@@ -1,0 +1,56 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons button {
+  color: white;
+  background-image: linear-gradient(to left, #0b0b0baf, #0b0b0b );
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  background-size: 300% 100%;
+}
+
+.buttons button:hover {
+  background-image: linear-gradient(to left, #1a1a1a, rgba(0, 0, 0, 0.781));
+  transition: all 0.4s ease-in-out;
+  background-position: 50% 10%;
+  cursor: pointer;
+}
+
+.buttons button:focus {
+  background-image: linear-gradient(to left, #1a1a1a, rgba(0, 0, 0, 0.781));
+  transition: all 0.4s ease-in-out;
+  background-position: 50% 10%;
+  cursor: pointer;
+}
+
+
+
+.companiesContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.companiesContainer div h1 {
+  font-size: 1.6rem;
+}
+
+.companiesContainer div p {
+  margin-top: 0px;
+}
+
+.companiesContainer ul {
+  line-height: 1.5;
+}
+
+.companiesContainer ul li {
+  font-weight: 100;
+  font-size: 1.3rem;
+}

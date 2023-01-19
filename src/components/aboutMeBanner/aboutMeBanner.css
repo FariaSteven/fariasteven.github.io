@@ -1,0 +1,62 @@
+.aboutMeWrapper {
+  display: flex;
+  gap: 30px;
+  background-color: #272727a1;
+  clip-path: polygon(21% 0, 23% 2%, 100% 2%, 100% 90%, 92% 100%, 31% 100%, 21% 100%, 0 100%, 0% 35%, 0 0);
+}
+
+.aboutContainer .name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 75px;
+}
+
+.aboutContainer .role {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.aboutContainer .aboutText {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: white;
+  text-align: justify;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.meContainer .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.meContainer .contact a, .meContainer .contact div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #8a8a8a9d;
+  transition: 0.4s ease-in-out;
+  color: white;
+  background-image: linear-gradient(to left, #0b0b0baf, #0b0b0b );
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  background-size: 300% 100%;
+}
+
+.meContainer .contact a:hover, .meContainer .contact div:hover {
+  background-color: #8a8a8a;
+  cursor: pointer;
+}
